@@ -1,0 +1,78 @@
+! =============================================
+! AdGuard 用户规则：知乎首页净化（保留搜索历史 + 去掉推荐内容与搜索占位词）
+! 作者：ChatGPT 智能助手
+! 更新时间：2025-10-26
+! =============================================
+
+! -------- 1. 屏蔽知乎首页推荐内容（feed / 热榜 / 广告） --------
+www.zhihu.com##div.Topstory
+www.zhihu.com##div.Topstory-container
+www.zhihu.com##div.TopstoryMain
+www.zhihu.com##.TopstoryItem
+www.zhihu.com##.Topstory-recommend
+www.zhihu.com##.Topstory-hot
+www.zhihu.com##.Pc-card
+www.zhihu.com##.Feed
+www.zhihu.com##.Card.TopstoryItem
+www.zhihu.com##section.Topstory
+www.zhihu.com##.GlobalSideBar
+www.zhihu.com##div.Topstory[data-za-module="TopstoryFeed"]
+
+! 防止页面塌陷，保留顶部栏
+www.zhihu.com##main:style(padding-top: 60px !important;)
+www.zhihu.com##div.Topstory,
+www.zhihu.com##div.Topstory-container,
+www.zhihu.com##div.TopstoryMain:style(display:none !important;)
+
+
+! -------- 2. 屏蔽搜索框聚焦后弹出的“搜索发现 / 猜你想搜 / 热搜推荐” --------
+! 保留搜索历史，隐藏推荐区
+www.zhihu.com##.Popover-content:has-text(搜索发现)
+www.zhihu.com##.Popover-content:has-text(猜你想搜)
+www.zhihu.com##.Popover-content:has-text(热搜)
+www.zhihu.com##.Popover-content:has(.HotItem)
+www.zhihu.com##div[aria-label="搜索发现"]
+www.zhihu.com##div[data-za-detail-view-name="SearchBoxHotList"]
+www.zhihu.com##div[data-za-detail-view-name="SearchBoxHotQuery"]
+www.zhihu.com##div[data-za-detail-view-name="SuggestHotQuery"]
+www.zhihu.com##.HotSearch
+www.zhihu.com##.HotQuery
+www.zhihu.com##.HotItem
+
+! 不屏蔽搜索历史块
+! （不要添加任何 has-text(搜索历史) 的隐藏规则）
+
+
+! -------- 3. 去掉搜索框里的灰色默认推荐占位词（placeholder） --------
+! 这是输入框本身的 placeholder，不是下拉面板。
+! 去掉它，不影响输入功能、光标可见、历史可用。
+www.zhihu.com#$#input::-webkit-input-placeholder {color: transparent !important;}
+www.zhihu.com#$#input::-moz-placeholder {color: transparent !important;}
+www.zhihu.com#$#input:-ms-input-placeholder {color: transparent !important;}
+www.zhihu.com#$#input::placeholder {color: transparent !important;}
+
+! 有些版本用绝对定位的 span/div 显示“今日热词”，一起隐藏：
+www.zhihu.com##.SearchBar-input .Input-placeholder
+www.zhihu.com##.SearchBar-input .Placeholder
+www.zhihu.com##.SearchBar-input [class*="Placeholder"]
+www.zhihu.com##.SearchBar-input span:style(color: transparent !important;)
+www.zhihu.com##.SearchBar-input div:style(color: transparent !important;)
+www.zhihu.com##.SearchBar-input [aria-hidden="true"]:style(display:none !important;)
+
+
+! -------- 4. 其他可选清理 --------
+www.zhihu.com##.AppHeader-Tabs
+www.zhihu.com##.CornerAnimayed
+www.zhihu.com##.Question-sideColumn
+www.zhihu.com##.Pc-card.TopstoryItem
+www.zhihu.com##.SignFlowHomepage
+
+
+! =============================================
+! ✅ 效果说明：
+! - 首页推荐区、热榜卡片、视频流全部消失
+! - 顶部栏、搜索框、右上角头像保留
+! - 搜索历史保留，可正常点击复搜
+! - 搜索框内灰色“默认推荐热词”占位提示隐藏
+! - 搜索功能、回车跳转、结果页均正常
+! =============================================
