@@ -1,0 +1,3 @@
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/src/xnet_tiny/build/CMakeFiles/xnet_tiny.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/src/xnet_tiny/build/CMakeFiles/edit_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/src/xnet_tiny/build/CMakeFiles/rebuild_cache.dir

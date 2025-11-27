@@ -1,0 +1,136 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/xnet_tiny/libxnet_tiny.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/xnet_tiny/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/c_work/start/xnet_tiny_c0101"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/c_work/start/xnet_tiny_c0101/../lib/npcap/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/c_work/start/xnet_tiny_c0101/src/xnet_app"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/c_work/start/xnet_tiny_c0101/src/xnet_tiny"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/c_work/start/xnet_tiny_c0101/../lib/xnet"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "xnet_tiny::@746c93521a1b098f3dd3",
+	"name" : "xnet_tiny",
+	"nameOnDisk" : "libxnet_tiny.a",
+	"paths" : 
+	{
+		"build" : "src/xnet_tiny",
+		"source" : "src/xnet_tiny"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/xnet_tiny/xnet_tiny.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

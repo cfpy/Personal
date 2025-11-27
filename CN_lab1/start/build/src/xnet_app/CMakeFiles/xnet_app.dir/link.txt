@@ -1,0 +1,2 @@
+D:\c\mingw64\bin\ar.exe qc libxnet_app.a CMakeFiles/xnet_app.dir/port_pcap.c.obj CMakeFiles/xnet_app.dir/xserver_datetime.c.obj CMakeFiles/xnet_app.dir/xserver_http.c.obj
+D:\c\mingw64\bin\ranlib.exe libxnet_app.a

@@ -1,0 +1,9 @@
+D:/c_work/start/build/CMakeFiles/xnet.dir
+D:/c_work/start/build/CMakeFiles/edit_cache.dir
+D:/c_work/start/build/CMakeFiles/rebuild_cache.dir
+D:/c_work/start/build/src/xnet_tiny/CMakeFiles/xnet_tiny.dir
+D:/c_work/start/build/src/xnet_tiny/CMakeFiles/edit_cache.dir
+D:/c_work/start/build/src/xnet_tiny/CMakeFiles/rebuild_cache.dir
+D:/c_work/start/build/src/xnet_app/CMakeFiles/xnet_app.dir
+D:/c_work/start/build/src/xnet_app/CMakeFiles/edit_cache.dir
+D:/c_work/start/build/src/xnet_app/CMakeFiles/rebuild_cache.dir

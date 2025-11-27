@@ -1,0 +1,1 @@
+  -LC:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/../lib/npcap/Lib/x64  src/xnet_tiny/libxnet_tiny.a src/xnet_app/libxnet_app.a C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/../lib/npcap/Lib/x64/wpcap.lib -lWs2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

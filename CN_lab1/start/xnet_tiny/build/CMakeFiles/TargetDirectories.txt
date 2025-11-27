@@ -1,0 +1,9 @@
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/CMakeFiles/xnet.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/CMakeFiles/edit_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/CMakeFiles/rebuild_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_tiny/CMakeFiles/xnet_tiny.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_tiny/CMakeFiles/edit_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_tiny/CMakeFiles/rebuild_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_app/CMakeFiles/xnet_app.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_app/CMakeFiles/edit_cache.dir
+C:/Users/19145/Desktop/CN_lab1/start/xnet_tiny/build/src/xnet_app/CMakeFiles/rebuild_cache.dir

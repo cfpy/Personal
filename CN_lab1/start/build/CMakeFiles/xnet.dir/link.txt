@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\xnet.dir/objects.a
+D:\c\mingw64\bin\ar.exe qc CMakeFiles\xnet.dir/objects.a @CMakeFiles\xnet.dir\objects1.rsp
+D:\c\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\xnet.dir/objects.a -Wl,--no-whole-archive -o xnet.exe -Wl,--out-implib,libxnet.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\xnet.dir\linkLibs.rsp

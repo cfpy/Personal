@@ -1,0 +1,2 @@
+D:\c\mingw64\bin\ar.exe qc libxnet_tiny.a CMakeFiles/xnet_tiny.dir/xnet_tiny.c.obj
+D:\c\mingw64\bin\ranlib.exe libxnet_tiny.a
